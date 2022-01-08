@@ -1,0 +1,47 @@
+p{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+}
+.social-icons{
+    display: inline-flex;
+    padding: 0% 47.5%;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+.ReadMore{
+    width: 100%;
+    margin-bottom: 1%;
+    padding:25px;
+}
+.ReadMore h1{
+    margin-right: 5%;
+}
+.ReadMore h3{
+    margin-top: 0.5%;
+    margin-right: 5%;
+}
+.ReadMore a{
+    font-size: 25px ;
+}
+h2{
+    text-align: center;
+}
+.footer_wrap ul li{
+display:table-cell;
+text-align: center;
+display: inline-flex;
+font-size: 16px;
+padding:0% 6%;
+}
+.footer_2 ul li{
+    display:table-cell;
+    text-align: center;
+    display: inline-flex;
+    font-size: 12px;
+    padding:1% 4%;
+}
