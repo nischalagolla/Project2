@@ -21,189 +21,215 @@
 </head>
 
 <body>
-  <!--------------------------------------------Navbar---------------------------------------------->
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="https://static.lenskart.com/media/desktop/img/site-images/dark_logo.svg" alt="Lenskart"
-          title="Lenskart" style="margin-top: 7px;">
-      </a>
-      <i class="bi bi-telephone-inbound-fill" style="font-size: 15px;">1800-111-111</i>
-      <form class="d-flex">
-        <!-- <input class="form-control" style =" height:30px; width:300px; font-size: 15px;"  type="search" placeholder="Search" aria-label="Search"> -->
-        <div>
+  <!--------------------------------------------Coupon---------------------------------------------->
+  <div class="container-fluid">
+    <div id="coupon">
+      <img src="images/joboffer.webp" style="height:100px; width: 200px;">
+      <button onclick="closeDiv()">x</button>
+    </div>
+
+    <script>
+      window.onload = test();
+    </script>
+    <!--------------------------------------------Navbar---------------------------------------------->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://static.lenskart.com/media/desktop/img/site-images/dark_logo.svg" alt="Lenskart"
+            title="Lenskart" style="margin-top: 7px;">
+        </a>
+        <i class="bi bi-telephone-inbound-fill" style="font-size: 15px;">1800-111-111</i>
+        <form class="d-flex">
+          <!-- <input class="form-control" style =" height:30px; width:300px; font-size: 15px;"  type="search" placeholder="Search" aria-label="Search"> -->
+          <!-- <div>
           <input type="text" placeholder="what are you looking for" autocomplete="off"
             class="search_input-bar autoSuggest" name="search"
             style=" height:30px; width:300px; font-size: 13px; margin-top: 7px;">
+        </div> -->
+          <div class="dropdown">
             <select id="search">
-              
+              <option>what are you looking for</option>
             </select>
+          </div>
+        </form>
+        <a href="#" title="Track Order" style="text-decoration: none; color: black; font-size: 13px;">Track Order</a>
+        <a href="#" style="text-decoration: none; color: black; font-size: 13px;">Sign In & Sign Up</a>
+        <a href="#" title="WishList" style="text-decoration: none; color: black; font-size:13px"><i
+            class="bi bi-heart">WishList</i></a>
+        <i class="bi bi-cart2" style="text-decoration: none; color: black; font-size:13px">Cart</i>
+      </div>
+    </nav>
+    <!--------------------------------------------Categories---------------------------------------------->
+    <div class="card" style="margin-bottom: 2%; display: inline;">
+      <center>
+        <div class="card1" style="float: left; margin-left: 8%;">
+          <a href="#"><img src="images/eyeg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <div class="card-body">
+            <h4 class="card-title">Eyeglasses</h4>
+          </div>
         </div>
-      </form>
-      <a href="#" title="Track Order" style="text-decoration: none; color: black; font-size: 13px;">Track Order</a>
-      <a href="#" style="text-decoration: none; color: black; font-size: 13px;">Sign In & Sign Up</a>
-      <a href="#" title="WishList" style="text-decoration: none; color: black; font-size:13px"><i
-          class="bi bi-heart">WishList</i></a>
-      <i class="bi bi-cart2" style="text-decoration: none; color: black; font-size:13px">Cart</i>
+        <div class="card2" style="float: left;">
+          <a href="#"><img src="images/sung.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <div class="card-body">
+            <h4 class="card-title">sunglasses</h4>
+          </div>
+        </div>
+        <div class="card3" style="float: left;">
+          <a href="#"><img src="images/ceg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <div class="card-body">
+            <h4 class="card-title">computer glasses</h4>
+          </div>
+        </div>
+        <div class="card4" style="float: left; border: gray;">
+          <a href="#"><img src="images/clg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <div class="card-body">
+            <h4 class="card-title">contact lenses</h4>
+          </div>
+        </div>
+        <div class="card5" style="float: left;">
+          <a href="#"><img src="images/psg3.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <div class="card-body">
+            <h4 class="card-title">Power Sunglasses</h4>
+          </div>
+        </div>
+        <div class="card6" style="float: left;">
+          <a href="#"><img src="images/readglasses.webp" class="img-responsive"
+              style="width:200px; margin-right: 10px;"></a>
+          <div class="card-body">
+            <h4 class="card-title">Reading Glasses</h4>
+          </div>
+        </div>
+      </center>
     </div>
-  </nav>
-  <!--------------------------------------------Categories---------------------------------------------->
-  <div class="card" style="margin-bottom: 2%; display: inline;">
+
+
+    <!--------------------------------------------Banner---------------------------------------------->
+    <div class="ReadMore" style="display: inline-flex; background-color: rgb(224, 198, 189); width:100%; ">
+      <h1>We are Serving</h1>
+      <h3>LensKart Stores, Online & Home Eye Test-will continue to serve. For Queries or Talking to Eyewear Expert call
+        at
+        1800-111-111</h3>
+      <a href="#">Know More</a>
+    </div>
+    <!--------------------------------------------Carousel---------------------------------------------->
+    <div id="edugal" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#edugal" data-slide-to="0" class="active"></li>
+        <li data-target="#edugal" data-slide-to="1"></li>
+        <li data-target="#edugal" data-slide-to="2"></li>
+        <li data-target="#edugal" data-slide-to="3"></li>
+        <li data-target="#edugal" data-slide-to="4"></li>
+        <li data-target="#edugal" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="carousel1.webp" class="img-responsive" alt="" style="height:400px;width:100%" />
+        </div>
+        <div class="item">
+          <img src="carousel2.gif" alt="" class="img-responsive" style="height:400px;width:100%" />
+        </div>
+        <div class="item">
+          <img src="carousel3.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
+        </div>
+        <div class="item">
+          <img src="carousel4.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
+        </div>
+        <div class="item">
+          <img src="carousel5.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
+        </div>
+        <div class="item">
+          <img src="carousel6.gif" alt="" class="img-responsive" style="height:400px;width:100%" />
+        </div>
+      </div>
+      <a class="left carousel-control" href="#edugal" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#edugal" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+    <!--------------------------------------------Blog---------------------------------------------->
     <center>
-    <div class= "card1" style="float: left; margin-left: 8%;">
-      <a href="#"><img src="images/eyeg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-      <div class="card-body">
-        <h4 class="card-title">Eyeglasses</h4>
-      </div>
-    </div>
-    <div class= "card2" style="float: left;">
-      <a href="#"><img src="images/sung.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-      <div class="card-body">
-        <h4 class="card-title">sunglasses</h4>
-      </div>
-    </div>
-    <div class= "card3" style="float: left;">
-      <a href="#"><img src="images/ceg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-      <div class="card-body">
-        <h4 class="card-title">computer glasses</h4>
-      </div>
-    </div>
-    <div class= "card4" style="float: left; border: gray;">
-      <a href="#"><img src="images/clg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-      <div class="card-body">
-        <h4 class="card-title">contact lenses</h4>
-      </div>
-    </div>
-    <div class= "card5" style="float: left;">
-      <a href="#"><img src="images/psg3.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-      <div class="card-body">
-        <h4 class="card-title">Power Sunglasses</h4>
-      </div>
-    </div>
-    <div class= "card6" style="float: left;">
-      <a href="#"><img src="images/readglasses.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-      <div class="card-body">
-        <h4 class="card-title">Reading Glasses</h4>
-      </div>
-    </div>
-  </center>
-  </div>
-  <!--------------------------------------------Banner---------------------------------------------->
-<div class="ReadMore" style="display: inline-flex; background-color: rgb(224, 198, 189); width:100%; ">
-  <h1>We are Serving</h1>
-  <h3>LensKart Stores, Online & Home Eye Test-will continue to serve. For Queries or Talking to Eyewear Expert call at 1800-111-111</h3>
-  <a href="#">Know More</a>
-</div>
-<!--------------------------------------------Carousel---------------------------------------------->
-  <div id="edugal" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#edugal" data-slide-to="0" class="active"></li>
-      <li data-target="#edugal" data-slide-to="1"></li>
-      <li data-target="#edugal" data-slide-to="2"></li>
-      <li data-target="#edugal" data-slide-to="3"></li>
-      <li data-target="#edugal" data-slide-to="4"></li>
-      <li data-target="#edugal" data-slide-to="5"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="carousel1.webp" class="img-responsive" alt="" style="height:400px;width:100%" />
-      </div>
-      <div class="item">
-        <img src="carousel2.gif" alt=""  class="img-responsive" style="height:400px;width:100%" />
-      </div>
-      <div class="item">
-        <img src="carousel3.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
-      </div>
-      <div class="item">
-        <img src="carousel4.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
-      </div>
-      <div class="item">
-        <img src="carousel5.webp" alt=""  class="img-responsive" style="height:400px;width:100%" />
-      </div>
-      <div class="item">
-        <img src="carousel6.gif" alt="" class="img-responsive" style="height:400px;width:100%" />
-      </div>
-    </div>
-    <a class="left carousel-control" href="#edugal" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#edugal" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-  </div>
-  <!--------------------------------------------Blog---------------------------------------------->
-  <center>
-    <h4 class="font-head" style="font-size: 30px; margin-top: 5px;">
-      Our Blog
-    </h4>
-    <a href="#"><img src="images/Our Blog.webp" class="img-responsive" style="height: 400px; margin-bottom: 2%; width: 400px;"></a>
-  </center>
-<!--------------------------------------------About---------------------------------------------->
-  <h1>Buy The Best Eyewear From Lenskart</h1>
-  <p>Lenskart is the leading e-commerce portal for eyewear in India. It has revolutionised the eyewear industry in the
-    country with its omni-channel approach. From an ever-growing number of offline stores across major cities in the
-    country to innovative integration of technology while purchasing online, Lenskart caters to every customer with
-    several deals and offers.</p>
-  <p>A one-stop online solution for purchasing eyewear and its accessories, Lenskart delivers them right at your
-    doorstep with convenient methods of payment. Sunglasses as well as eyeglasses are available for men and women in a
-    diverse array of styles and trendy colours. If you want to try out contact lenses, pick the ones of your choice from
-    the extensive variety of coloured <a href="#">contact lenses</a> from our online store.</p>
+      <h4 class="font-head" style="font-size: 30px; margin-top: 5px;">
+        Our Blog
+      </h4>
+      <a href="#"><img src="images/Our Blog.webp" class="img-responsive"
+          style="height: 400px; margin-bottom: 2%; width: 700px;"></a>
+    </center>
+    <!--------------------------------------------About---------------------------------------------->
+    <h1>Buy The Best Eyewear From Lenskart</h1>
+    <p>Lenskart is the leading e-commerce portal for eyewear in India. It has revolutionised the eyewear industry in the
+      country with its omni-channel approach. From an ever-growing number of offline stores across major cities in the
+      country to innovative integration of technology while purchasing online, Lenskart caters to every customer with
+      several deals and offers.</p>
+    <p>A one-stop online solution for purchasing eyewear and its accessories, Lenskart delivers them right at your
+      doorstep with convenient methods of payment. Sunglasses as well as eyeglasses are available for men and women in a
+      diverse array of styles and trendy colours. If you want to try out contact lenses, pick the ones of your choice
+      from
+      the extensive variety of coloured <a href="#">contact lenses</a> from our online store.</p>
   </div>
 </body>
+
 <!--------------------------------------------Footer---------------------------------------------->
-<hr/>
+<hr />
+
 <footer>
+
   <h3>Follow Us</h3>
   <div class="social-icons">
+
     <a href="https://www.facebook.com/Lenskartindia" target="blank" style="text-decoration: none;"><i
         class="bi bi-facebook" alt="facebook" title="facebook" style="color: black; text-align: center;"></i></a>
-      <a href="https://twitter.com/Lenskart_com" target="blank" style="text-decoration: none;"><i class="bi bi-twitter"
-          alt="twitter" title="twitter" style=" color: black; text-align: center;"></i></a>
-        <a href="https://www.instagram.com/lenskart/" target="blank" style="text-decoration: none;"><i
-            class="bi bi-instagram" alt="insta" title="instagram" style="color: black; text-align: center;"></i></a>
-      <!-- <a href="https://in.pinterest.com/lenskartindia/" target="blank" style="text-decoration: none;">
+    <a href="https://twitter.com/Lenskart_com" target="blank" style="text-decoration: none;"><i class="bi bi-twitter"
+        alt="twitter" title="twitter" style=" color: black; text-align: center;"></i></a>
+    <a href="https://www.instagram.com/lenskart/" target="blank" style="text-decoration: none;"><i
+        class="bi bi-instagram" alt="insta" title="instagram" style="color: black; text-align: center;"></i></a>
+    <!-- <a href="https://in.pinterest.com/lenskartindia/" target="blank" style="text-decoration: none;">
         <i class="bi bi-pinterest" alt="pinterest" title="pinterest" style="color: black; text-align: center;"></i></a> -->
+
   </div>
+
   <h2>Download Lenskart App to but Eyeglasses , Sunglasses and Contact Lenses </h2>
   <section class="footer_Wrap">
-    <hr/>
+    <hr />
     <ul class=footer_top>
       <li>
         <a target=_blank href="https://stores.lenskart.com/"></a>
-      <span>STORE LOCATOR</span>
+        <span>STORE LOCATOR</span>
       </li>
       <li>
         <a target=_blank href="https://stores.lenskart.com/"></a>
-      <span>FAQ</span>
+        <span>FAQ</span>
       </li>
       <li>
         <a target=_blank href="https://stores.lenskart.com/"></a>
-      <span>ENTER MY POWER</span>
+        <span>ENTER MY POWER</span>
       </li>
       <li>
         <a target=_blank href="https://stores.lenskart.com/"></a>
-      <span>BUYING GUIDE</span>
+        <span>BUYING GUIDE</span>
       </li>
       <li>
         <a target=_blank href="https://stores.lenskart.com/"></a>
-      <span>FRAME SIZE</span>
+        <span>FRAME SIZE</span>
       </li>
     </ul>
-    <hr/>
-    </section>
-    <section class="footer_2">
+    <hr />
+  </section>
+  <section class="footer_2">
     <ul class=footer_bottom style="font-size: 5px; padding:0% 0%">
       <li>We are hiring</li>
       <li>Refer and Earn</li>
       <li>About Us</li>
       <li>T&C</li>
-     <li>Site Map</li>
-     <li>Disclaimer</li>
-     <li>Privacy</li> 
-     <li>LensKart Coupons</li>
+      <li>Site Map</li>
+      <li>Disclaimer</li>
+      <li>Privacy</li>
+      <li>LensKart Coupons</li>
     </ul>
-    
+
   </section>
 </footer>
-<script>window.onload=test()</script>
+</div>
+
 </html>

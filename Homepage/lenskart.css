@@ -1,3 +1,19 @@
+#coupon{
+    height:200px;
+    width:200px;
+    visibility: hidden;
+    z-index:100%;
+}
+/* #coupon{
+    visibility: hidden;
+    z-index:100%;
+}
+#coupon img{
+    height:200px;
+    width:200px;
+    z-index:100%;
+} */
+
 p{
     font-size: 13px;
 }
