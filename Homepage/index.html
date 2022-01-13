@@ -23,9 +23,9 @@
 <body>
   <!--------------------------------------------Coupon---------------------------------------------->
   <div class="container-fluid">
-    <div id="coupon">
-      <img src="images/joboffer.webp" style="height:100px; width: 200px;">
-      <button onclick="closeDiv()">x</button>
+    <div id="coupon" style=" height:410px; width:710px;">
+      <button  id= "btn" onclick="closeDiv()" style="margin-top: -5%; margin-left: 96%;">x</button>
+      <img src="images/joboffer.webp" class="img-responsive" style="height:400px; width: 700px; margin-top: -2%;">
     </div>
 
     <script>
@@ -47,9 +47,12 @@
             style=" height:30px; width:300px; font-size: 13px; margin-top: 7px;">
         </div> -->
           <div class="dropdown">
-            <select id="search">
-              <option>what are you looking for</option>
+            <select id="Brand" style="font-size: 13px;">
+             <option>What are you looking for</option>
             </select>
+            <script>
+              window.onload=getBrand()
+            </script>
           </div>
         </form>
         <a href="#" title="Track Order" style="text-decoration: none; color: black; font-size: 13px;">Track Order</a>
@@ -57,13 +60,14 @@
         <a href="#" title="WishList" style="text-decoration: none; color: black; font-size:13px"><i
             class="bi bi-heart">WishList</i></a>
         <i class="bi bi-cart2" style="text-decoration: none; color: black; font-size:13px">Cart</i>
-      </div>
+      <button onclick="changeMode()" style="height: 30px;"><i class="far fa-lightbulb">ChangeMode</i></button>
+    </div>
     </nav>
     <!--------------------------------------------Categories---------------------------------------------->
     <div class="card" style="margin-bottom: 2%; display: inline;">
       <center>
         <div class="card1" style="float: left; margin-left: 8%;">
-          <a href="#"><img src="images/eyeg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <a href="product/product.html"><img src="images/eyeg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
           <div class="card-body">
             <h4 class="card-title">Eyeglasses</h4>
           </div>
@@ -189,7 +193,7 @@
 
   </div>
 
-  <h2>Download Lenskart App to but Eyeglasses , Sunglasses and Contact Lenses </h2>
+  <h3>Download Lenskart App to but Eyeglasses , Sunglasses and Contact Lenses </h3>
   <section class="footer_Wrap">
     <hr />
     <ul class=footer_top>
@@ -227,8 +231,23 @@
       <li>Privacy</li>
       <li>LensKart Coupons</li>
     </ul>
-
   </section>
+  <div class="footer_3" style="text-align: center; margin-left: 22%; font-weight: light;">
+    <div class="category1" style="display:inline;">
+      <h3>Eyeglasses</h3>
+      <p class="types1" style="margin-left: 5%; margin-top: 2%;">Free Frame  |  Ray-Ban  |  Vincent Chase  | CatEye</p>
+    </div>
+    <div class="category2" style="display:inline;">
+      <h3>Sunglasses</h3>
+      <p class="types2" style="margin-left: 5%; margin-top: 2%;">Ray Ban  |  Oakley | John Jacobs | Vincent Chase</p>
+    </div>
+    <div class="category3" style="display:inline;">
+      <h3>ContactLenses</h3>
+      <p class="types3" style="margin-left: 5%; margin-top: 2%;">Bausch and lomb  | Colour lenses | Daily disposable  | Monthly disposable</p>
+    </div>
+  </div>
+  <hr/>
+  <h6>&copy Since 2002 Lenskart. All rights reserved</h6>
 </footer>
 </div>
 

@@ -1,18 +1,25 @@
+body{
+    background-color:white;
+    color:black
+}
+.mydark{
+    background-color:black;
+    color:white
+}
 #coupon{
     height:200px;
     width:200px;
+    border: black;
     visibility: hidden;
-    z-index:100%;
+    z-index:100;
+    margin-top: 13%;
+    margin-left: 15%;
+    position: absolute;
 }
-/* #coupon{
-    visibility: hidden;
-    z-index:100%;
+#btn{
+ /* margin-right: 40%;
+ z-index: 100%; */
 }
-#coupon img{
-    height:200px;
-    width:200px;
-    z-index:100%;
-} */
 
 p{
     font-size: 13px;
@@ -60,4 +67,11 @@ padding:0% 6%;
     display: inline-flex;
     font-size: 12px;
     padding:1% 4%;
+}
+
+.footer_3{
+    display: inline-flex;
+}
+h6{
+    text-align: center;
 }
