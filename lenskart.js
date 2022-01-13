@@ -1,4 +1,4 @@
-let url="http://localhost:4201/Brand";
+let url="http://localhost:3000/Brand";
 
 function getBrand(){
 fetch(url)
