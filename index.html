@@ -25,9 +25,10 @@
 <body>
   <!--------------------------------------------Coupon---------------------------------------------->
   <div class="container-fluid">
-    <div id="coupon" style=" height:410px; width:710px;">
-      <button  id= "btn" onclick="closeDiv()" style="margin-top: -5%; margin-left: 96%;">x</button>
-      <img src="images/joboffer.webp" class="img-responsive" style="height:400px; width: 700px; margin-top: -2%;">
+    <div>
+      <button id="coupon" onclick="closeDiv()">
+          <h1 class="closes">&times;</h1>
+      </button> 
     </div>
 
     <script>
@@ -58,11 +59,15 @@
           </div>
         </form>
         <a href="#" title="Track Order" style="text-decoration: none; color: black; font-size: 13px;">Track Order</a>
-        <a href="#" style="text-decoration: none; color: black; font-size: 13px;">Sign In & Sign Up</a>
+        <a href="signin/signin.html" style="text-decoration: none; color: black; font-size: 13px;">Sign In & Sign Up</a>
         <a href="#" title="WishList" style="text-decoration: none; color: black; font-size:13px"><i
             class="bi bi-heart">WishList</i></a>
         <i class="bi bi-cart2" style="text-decoration: none; color: black; font-size:13px">Cart</i>
-      <button onclick="changeMode()" style="height: 30px;"><i class="far fa-lightbulb">ChangeMode</i></button>
+      <button onclick="changeMode()" style="height: 30px; border: white; background-color: transparent;"><i class="far fa-lightbulb" style="color: rgb(179, 89, 15);">Mode change</i></button>
+      <div class="location">
+        <div id="icon"></div>
+        <p id="address"></p>
+    </div>
     </div>
     </nav>
     <!--------------------------------------------Categories---------------------------------------------->
@@ -111,48 +116,44 @@
 
     <!--------------------------------------------Banner---------------------------------------------->
     <div class="ReadMore" style="display: inline-flex; background-color: rgb(224, 198, 189); width:100%; ">
-      <h1>We are Serving</h1>
-      <h3>LensKart Stores, Online & Home Eye Test-will continue to serve. For Queries or Talking to Eyewear Expert call
+      <h3>We are Serving &nbsp</h3>
+      <h5>LensKart Stores, Online & Home Eye Test-will continue to serve. For Queries or Talking to Eyewear Expert call
         at
-        1800-111-111</h3>
-      <a href="#">Know More</a>
+        1800-111-111 &nbsp</h5>
+      <a href="#">KnowMore &nbsp</a>
     </div>
     <!--------------------------------------------Carousel---------------------------------------------->
-    <div id="edugal" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#edugal" data-slide-to="0" class="active"></li>
-        <li data-target="#edugal" data-slide-to="1"></li>
-        <li data-target="#edugal" data-slide-to="2"></li>
-        <li data-target="#edugal" data-slide-to="3"></li>
-        <li data-target="#edugal" data-slide-to="4"></li>
-        <li data-target="#edugal" data-slide-to="5"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="images/carousel1.webp" class="img-responsive" alt="" style="height:400px;width:100%" />
-        </div>
-        <div class="item">
-          <img src="images/carousel2.gif" alt="" class="img-responsive" style="height:400px;width:100%" />
-        </div>
-        <div class="item">
-          <img src="images/carousel3.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
-        </div>
-        <div class="item">
-          <img src="images/carousel4.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
-        </div>
-        <div class="item">
-          <img src="images/carousel5.webp" alt="" class="img-responsive" style="height:400px;width:100%" />
-        </div>
-        <div class="item">
-          <img src="images/carousel6.gif" alt="" class="img-responsive" style="height:400px;width:100%" />
-        </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
-      <a class="left carousel-control" href="#edugal" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#edugal" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/carousel1.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel2.gif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel3.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel4.webp" class="d-block w-100" alt="...">
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <!--------------------------------------------Blog---------------------------------------------->
     <center>
@@ -162,18 +163,7 @@
       <a href="#"><img src="images/Our Blog.webp" class="img-responsive"
           style="height: 400px; margin-bottom: 2%; width: 700px;"></a>
     </center>
-<!--------------------------------------------Weather---------------------------------------------->
-<div class="weather">
-  <center>Weather App</center>
-  <select onChange="getWeather()" class="cities">
-      <option value="delhi">Delhi</option>
-      <option value="manali">Manali</option>
-      <option value="amsterdam">Amsterdam</option>
-      <option value="london">London</option>
-      <option value="paris">Paris</option>
-  </select>
-  <h2 id="cityName"></h2>
-</div>
+  
 
     <!--------------------------------------------About---------------------------------------------->
     <h1>Buy The Best Eyewear From Lenskart</h1>
@@ -190,28 +180,22 @@
 </body>
 
 <!--------------------------------------------Footer---------------------------------------------->
-<hr />
-
-<footer>
+<footer style="background-color: #05476f; color:whitesmoke;">
 
   <h3>Follow Us</h3>
   <div class="social-icons">
-
-    <a href="https://www.facebook.com/Lenskartindia" target="blank" style="text-decoration: none;"><i
-        class="bi bi-facebook" alt="facebook" title="facebook" style="color: black; text-align: center;"></i></a>
-    <a href="https://twitter.com/Lenskart_com" target="blank" style="text-decoration: none;"><i class="bi bi-twitter"
-        alt="twitter" title="twitter" style=" color: black; text-align: center;"></i></a>
-    <a href="https://www.instagram.com/lenskart/" target="blank" style="text-decoration: none;"><i
-        class="bi bi-instagram" alt="insta" title="instagram" style="color: black; text-align: center;"></i></a>
-    <!-- <a href="https://in.pinterest.com/lenskartindia/" target="blank" style="text-decoration: none;">
-        <i class="bi bi-pinterest" alt="pinterest" title="pinterest" style="color: black; text-align: center;"></i></a> -->
-
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <!-- <a href="https://www.facebook.com/Lenskartindia" target="blank" style="text-decoration: none;"><i
+      class="bi bi-facebook" alt="facebook" title="facebook" style="color: black; text-align: center;"></i></a>
+  <a href="https://twitter.com/Lenskart_com" target="blank" style="text-decoration: none;"><i class="bi bi-twitter"
+      alt="twitter" title="twitter" style=" color: black; text-align: center;"></i></a>
+  <a href="https://www.instagram.com/lenskart/" target="blank" style="text-decoration: none;"><i
+      class="bi bi-instagram" alt="insta" title="instagram" style="color: black; text-align: center;"></i></a> -->
   </div>
 
   <h3>Download Lenskart App to but Eyeglasses , Sunglasses and Contact Lenses </h3>
   <section class="footer_Wrap">
-    <hr />
-    <ul class=footer_top>
+   <ul class="footer_top">
       <li>
         <a target=_blank href="https://stores.lenskart.com/"></a>
         <span>STORE LOCATOR</span>
@@ -233,7 +217,6 @@
         <span>FRAME SIZE</span>
       </li>
     </ul>
-    <hr />
   </section>
   <section class="footer_2">
     <ul class=footer_bottom style="font-size: 5px; padding:0% 0%">
@@ -249,21 +232,53 @@
   </section>
   <div class="footer_3" style="text-align: center; margin-left: 22%; font-weight: light;">
     <div class="category1" style="display:inline;">
-      <h3>Eyeglasses</h3>
-      <p class="types1" style="margin-left: 5%; margin-top: 2%;">Free Frame  |  Ray-Ban  |  Vincent Chase  | CatEye</p>
+      <h3 style="color: rgb(240, 241, 165);">Eyeglasses</h3>
+      <p class="types1" style="margin-left: 5%; margin-top: 1%;">Free Frame  |  Ray-Ban  |  Vincent Chase  | CatEye</p>
     </div>
     <div class="category2" style="display:inline;">
-      <h3>Sunglasses</h3>
-      <p class="types2" style="margin-left: 5%; margin-top: 2%;">Ray Ban  |  Oakley | John Jacobs | Vincent Chase</p>
+      <h3 style="color: rgb(240, 241, 165);">Sunglasses</h3>
+      <p class="types2" style="margin-left: 5%; margin-top: 1%;">Ray Ban  |  Oakley | John Jacobs | Vincent Chase</p>
     </div>
     <div class="category3" style="display:inline;">
-      <h3>ContactLenses</h3>
-      <p class="types3" style="margin-left: 5%; margin-top: 2%;">Bausch and lomb  | Colour lenses | Daily disposable  | Monthly disposable</p>
+      <h3 style="color:rgb(240, 241, 165)">ContactLenses</h3>
+      <p class="types3" style="margin-left: 5%; margin-top: 1%;">Bausch and lomb  | Colour lenses | Daily disposable  | Monthly disposable</p>
     </div>
   </div>
   <hr/>
   <h6>&copy Since 2002 Lenskart. All rights reserved</h6>
 </footer>
 </div>
+
+ <script>
+        
+    var y = document.getElementById("address")
+    var z =  document.getElementById('icon')
+    function geolocation(){
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showPosition)
+        }else{
+            x.innerText="Geo Not Supported"
+        }
+    }
+
+    function showPosition(data){
+        console.log(data)
+        let lat = data.coords.latitude;
+        let long = data.coords.longitude
+        var url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+        fetch(url)
+        .then((res) => res.json())
+        .then((data) => {
+            console.log(data)                 
+            data.list.map((item) => {
+                console.log(item.temp.day)
+                y.innerText=`${item.temp.day}°C and ${item.weather[0].description}`
+                z.innerHTML=`<img class='card-img-top' src='https://openweathermap.org/img/w/${item.weather[0].icon}.png' alt='weather'/>`
+            })
+            
+        })
+    }
+    window.onload=geolocation()
+</script>
 
 </html>

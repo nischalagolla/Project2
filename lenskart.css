@@ -6,16 +6,7 @@ body{
     background-color:black;
     color:white
 }
-#coupon{
-    height:200px;
-    width:200px;
-    border: black;
-    visibility: hidden;
-    z-index:100;
-    margin-top: 13%;
-    margin-left: 15%;
-    position: absolute;
-}
+
 #btn{
  /* margin-right: 40%;
  z-index: 100%; */
@@ -39,22 +30,23 @@ h3{
 .ReadMore{
     width: 100%;
     margin-bottom: 1%;
-    padding:25px;
-}
-.ReadMore h1{
-    margin-right: 5%;
+    padding:15px;
 }
 .ReadMore h3{
+    margin-right: 2%;
+}
+.ReadMore h5{
     margin-top: 0.5%;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 .ReadMore a{
-    font-size: 25px ;
+    font-size: 15px;
+    margin-top: 5px;
 }
 h2{
     text-align: center;
 }
-.footer_wrap ul li{
+.footer_top li{
 display:table-cell;
 text-align: center;
 display: inline-flex;
@@ -75,41 +67,30 @@ padding:0% 6%;
 h6{
     text-align: center;
 }
-.weather{
-.card{
-    width: 200px;
-    border-radius: 5%;
-    background: #28346c;
-    color: #fff;
-    margin-left:3%;
-  }
-  .card:hover { transform: scale(1.1); }
-  .card-img-top{
-    width:44%
-  }
-  
-  .headingh1{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px #28346c;
-  }
-  
-  .max{
-    color: rgb(166, 226, 236);
-    font-weight: bold;
-  }
-  .min{
-    color:rgb(104, 155, 241);
-    font-weight: bold;
-  }
-  .day{
-    color: rgb(234, 255, 124);
-  }
-  .humid{
-    color:rgb(44, 112, 105);
-  }
-  .topTemp{
-    font-size:26px;
-    color:white;
-    font-weight: bold;
-  }
+
+.location{
+    display:flex;
+    color:rgb(27, 27, 26);
+    /* margin-left:2%; */
+    margin-top:1%
+}
+
+#coupon{
+    height:400px;
+    width:600px;
+    left:27%;
+    background-image:url("images/content_or520_promo-multipaire_bandeau-site-web_1200x460-en.png");
+    visibility: hidden;
+    z-index: 100;
+    position: absolute;
+    margin-top:10%;
+    background-size:100% 350px;
+   
+}
+.closes{
+    position: absolute;
+    margin-left: 92%;
+    color: rgb(253, 4, 4);
+    margin-top: -34%;
+    
+}
