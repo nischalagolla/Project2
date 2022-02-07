@@ -1,0 +1,126 @@
+[
+    {
+      "item_id":1,
+      "item_name":"vincentChase",
+      "location_id":9,
+      "state_id":4,
+      "Gender_id":4,
+      "category_id": 1,
+      "brand_id":1,
+      "frametype_id":1,
+      "frameshape_id":5,
+      "framecolor_id":1,
+      "size":"wide",
+      "Agegroup":"18-28",
+      "cost":999,
+      "avg_rating":4.8,
+      "ratingtext":"good",
+      "contactNo.":"+91 1234567890",
+      "image_gallery":[
+        "https://i.ibb.co/dJJqnG2/vincent-chase1.jpg",
+        "https://i.ibb.co/k1Ts70W/vincent-chase2.jpg",
+        "https://i.ibb.co/KLJLRXB/vincent-chase3.jpg",
+        "https://i.ibb.co/488S1qN/vincent-chase4.jpg"
+      ]
+    },
+    {
+        "item_id":2,
+        "item_name":"vincentChase",
+        "location_id":9,
+        "state_id":4,
+        "Gender_id":4,
+        "category_id": 1,
+        "brand_id":1,
+        "frametype_id":1,
+        "frameshape_id":5,
+        "framecolor_id":1,
+        "size":"Medium",
+        "Agegroup":"18-28",
+        "cost":900,
+        "avg_rating":4.8,
+        "ratingtext":"good",
+        "contactNo.":"+91 1234567890",
+        "image_gallery":[
+            "https://i.ibb.co/5FtjTMt/vincent-chase5-medium.jpg"
+        ]
+      },
+      {
+        "item_id":3,
+        "item_name":"vincentChase",
+        "location_id":9,
+        "state_id":4,
+        "Gender_id":4,
+        "category_id": 1,
+        "brand_id":1,
+        "frametype_id":1,
+        "frameshape_id":5,
+        "framecolor_id":2,
+        "size":"Narrow",
+        "Agegroup":"16-25",
+        "cost":970,
+        "avg_rating":5,
+        "ratingtext":"Excellent",
+        "contactNo.":"+91 1224567890",
+        "image_gallery":[
+            "https://i.ibb.co/s5sbFBC/vincent-chase6brw.jpg",
+            "https://i.ibb.co/TPWTvdF/vc-7brw.jpg",
+            "https://i.ibb.co/WvQGWXz/vc8brw.jpg"
+        ]
+      },
+      {
+        "item_id":4,
+        "item_name":"vincentChase",
+        "location_id":9,
+        "state_id":4,
+        "Gender_id":4,
+        "category_id": 1,
+        "brand_id":1,
+        "frametype_id":1,
+        "frameshape_id":5,
+        "framecolor_id":5,
+        "size":"Narrow",
+        "Agegroup":"16-25",
+        "cost":1100,
+        "avg_rating":4.7,
+        "ratingtext":"Stylish",
+        "contactNo.":"+91 1224567980",
+        "image_gallery":[
+            "https://i.ibb.co/MZ64Ynx/vcblue1.jpg",
+            "https://i.ibb.co/RHfzQy7/vcblue2.jpg",
+            "https://i.ibb.co/VMs780r/vcblue3.jpg",
+            "https://i.ibb.co/0fWgH4q/vcblue4.jpg"  
+        ]
+      },
+      {
+        "item_id":5,
+        "item_name":"vincentChase",
+        "location_id":9,
+        "state_id":4,
+        "Gender_id":4,
+        "category_id": 1,
+        "brand_id":1,
+        "frametype_id":1,
+        "frameshape_id":5,
+        "size":"medium",
+        "Agegroup":"10-19",
+        "cost":800,
+        "avg_rating":5,
+        "ratingtext":"classy",
+        "contactNo.":"+91 1224567990",
+        "framecolor_id":[1,2,5],
+         "image_gallery":{
+            "1":
+            [
+            "https://i.ibb.co/3mNV54X/vcbluesquare2.jpg",
+            "https://i.ibb.co/wwrWYWP/vcbluesquare4.jpg",
+            "https://i.ibb.co/0jt6LcZ/vcbluesquare5.jpg",
+            "https://i.ibb.co/RHfzQy7/vcblue2.jpg" 
+            ],
+            "2":
+            [
+
+            ]
+        }
+      },
+
+]
