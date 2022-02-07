@@ -1,0 +1,32 @@
+[
+    {
+        "category_id": 1,
+        "category": "Eyeglasses",
+        "category_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "category_id": 2,
+        "category": "Sunglasses",
+        "category_image": "https://i.ibb.co/8rPxkWP/lunch.jpg"
+    },
+    {
+        "category_id": 3,
+        "category": "Computerglasses",
+        "category_image": "https://i.ibb.co/XjzPqYv/dinner.jpg"
+    },
+    {
+        "category_id": 4,
+        "category": "contactlenses",
+        "category_image": "https://i.ibb.co/wchCHfb/snacks.jpg"
+    },
+    {
+        "category_id": 5,
+        "category": "PowerSunglasses",
+        "category_image": "https://i.ibb.co/YR0S6fV/drinks.jpg"
+    },
+    {
+        "category_id": 6,
+        "category": "Readingglasses",
+        "category_image": "https://i.ibb.co/q1fC2jW/nightlife.jpg"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+      "location_id": 1,
+      "location_name": "Shop No A3/182, Ground Floor,Paschim Vihar New Delhi, 110063",
+      "state_id": 1,
+      "state": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "location_id": 2,
+      "location_name": "Shop No 2, H4/6, Ground Floor,Model Town New Delhi, 110009",
+      "state_id": 1,
+      "state": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "location_id": 3,
+      "location_name": "No 06, Double Road, NRI Layout, Ramamurthy Nagar , Bengaluru, 560016",
+      "state_id": 2,
+      "state": "Bengalore",
+      "country_name": "India"
+    },
+    {
+      "location_id": 4,
+      "location_name": "Shop No 1443, First Main Road,Kengeri Satellite Town , Bengaluru, 560060",
+      "state_id": 2,
+      "state": "Bengalore",
+      "country_name": "India"
+      },
+    {
+        "location_id": 5,
+        "location_name": "Shop No 14, Aster Apartment, Nalasopara West Nalasopara, Mumbai, 401203",
+        "state_id": 3,
+        "state": "Mumbai",
+        "country_name": "India"
+    },
+    {
+        "location_id": 6,
+        "location_name": "H No 37 74/11/1, Plot No E-62, Survey No 218/1/3, JJ Nagar Ramakrishnapuram, Malkajgiri Municipality and Mandal Ranga Reddy ,Neredmet,Hyderabad, 500094",
+        "state_id": 4,
+        "state": "Hyderabad",
+        "country_name": "India"
+    },
+    {
+        "location_id": 7,
+        "location_name": "D#12-6-2/216, P#1 SY#577, Ground Floor, Kukatpally,Kukatpally Hyderabad, 500072 ",
+        "state_id": 4,
+        "state": "Hyderabad",
+        "country_name": "India"
+    },
+    {
+        "location_id": 8,
+        "location_name": "Shop No 17/1/383/N/80/31, Block No 1, Brindavan Colony Nagar, Champapet, Hyderabad, 500079",
+        "state_id": 4,
+        "state": "Hyderabad",
+        "country_name": "India"
+    },
+    {
+        "location_id": 9,
+        "location_name": "FF 02 & 03, First Floor, DSL Virtue Mall, Ramanthapur Main Road IDA , Uppal ,Hyderabad, 500039",
+        "state_id": 4,
+        "state": "Hyderabad",
+        "country_name": "India"
+    },
+    {
+        "location_id": 10,
+        "location_name": "New No 36, Old No 126, Dr Radha Krishnan Salai, Jagadambal Colony, Thulukanam Thottam, Mylapore, Chennai, 600004",
+        "state_id": 5,
+        "state": "Chennai",
+        "country_name": "India"
+    }
+]

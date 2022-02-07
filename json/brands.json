@@ -1,0 +1,26 @@
+[
+    {
+        "brand_id":1,
+        "brand":"vincentChase"
+    },
+    {
+        "brand_id":2,
+        "brand":"JohnJacobs"  
+    },
+    {
+        "brand_id":3,
+        "brand":"Hooper"
+    },
+    {
+        "brand_id":4,
+        "brand":"Fossil"
+    },
+    {
+        "brand_id":5,
+        "brand":"Rayban"
+    },
+    {
+        "brand_id":6,
+        "brand":"AquaLens"
+    }
+]

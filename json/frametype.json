@@ -1,0 +1,14 @@
+[
+    {
+     "frametype_id":1,
+     "frametype":"FullRim"
+    },
+    {
+     "frametype_id":2,
+     "frametype":"HalfRim"
+    },
+    {
+     "frametype_id":3,
+     "frametype":"Rimless"
+    }
+]

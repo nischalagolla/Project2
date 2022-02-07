@@ -1,0 +1,22 @@
+[
+    {
+        "framecolor_id":1,
+        "framecolor":"Black"
+    },
+    {
+        "frameshape_id":2,
+        "framecolor":"Brown"
+    },
+    {
+        "framecolor_id":3,
+        "framecolor":"Gold"
+    },
+    {
+        "framecolor_id":4,
+        "framecolor":"Gray"
+    },
+    {
+        "framecolor_id":5,
+        "framecolor":"Blue"
+    }
+]

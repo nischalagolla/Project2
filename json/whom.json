@@ -1,0 +1,18 @@
+[
+    {
+        "Gender_id":1,
+        "Gender":"kids"
+    },
+    {
+        "Gender_id":1,
+        "Gender":"Men"
+    },
+    {
+        "Gender_id":1,
+        "Gender":"Women"
+    },
+    {
+        "Gender_id":1,
+        "Gender":"unisex"
+    }
+]
