@@ -100,7 +100,7 @@
         "category_id": 1,
         "brand_id":1,
         "frametype_id":1,
-        "frameshape_id":5,
+        "frameshape_id":1,
         "size":"medium",
         "Agegroup":"10-19",
         "cost":800,
@@ -118,7 +118,17 @@
             ],
             "2":
             [
-
+              "https://i.ibb.co/9qyh8jc/vcsquarebrwn.jpg",
+              "https://i.ibb.co/5GhQ2RC/vcsquarebrw2.jpg",
+              "https://i.ibb.co/Rz6N86S/vcsquarebrwn3.jpg",
+              "https://i.ibb.co/JHvMg6W/vcsquarebrwn4.jpg"
+            ],
+            "5":
+            [
+              "https://i.ibb.co/CwsMcP8/vcsquareblack.jpg",
+              "https://i.ibb.co/CWgPm7g/vcsquareblack2.jpg",
+              "https://i.ibb.co/ZYZwnVJ/vcsquareblack3.jpg" ,
+              "https://i.ibb.co/v32Vmp0/vcsquareblack4.jpg"
             ]
         }
       },

@@ -16,7 +16,8 @@
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="lenskart.js"></script>
-
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.4.8/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper@6.4.8/swiper-bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -42,17 +43,11 @@
             title="Lenskart" style="margin-top: 7px;">
         </a>
         <i class="bi bi-telephone-inbound-fill" style="font-size: 15px;">1800-111-111</i>
-        <form class="d-flex">
-          <!-- <input class="form-control" style =" height:30px; width:300px; font-size: 15px;"  type="search" placeholder="Search" aria-label="Search"> -->
-          <!-- <div>
-          <input type="text" placeholder="what are you looking for" autocomplete="off"
-            class="search_input-bar autoSuggest" name="search"
-            style=" height:30px; width:300px; font-size: 13px; margin-top: 7px;">
-        </div> -->
-          <div class="dropdown">
-            <select id="Brand" style="font-size: 13px;">
-             <option>What are you looking for</option>
-            </select>
+          <div>
+            <form action="">
+              <input type="text" placeholder="What are you looking for?"> 
+              <i class="fas fa-search"></i>
+          </form>
             <script>
               window.onload=getBrand()
             </script>
@@ -74,38 +69,26 @@
     <div class="card" style="margin-bottom: 2%; display: inline;">
       <center>
         <div class="card1" style="float: left; margin-left: 8%;">
-          <a href="product.html"><img src="images/eyeg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <a href="./json/Details/details.html"><img src="images/eyeg.webp" class="img-responsive" style="width:300px; margin-right: 20px;"></a>
           <div class="card-body">
             <h4 class="card-title">Eyeglasses</h4>
           </div>
         </div>
         <div class="card2" style="float: left;">
-          <a href="#"><img src="images/sung.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <a href="#"><img src="images/sung.webp" class="img-responsive" style="width:300px; margin-right: 20px;"></a>
           <div class="card-body">
             <h4 class="card-title">sunglasses</h4>
           </div>
         </div>
         <div class="card3" style="float: left;">
-          <a href="#"><img src="images/ceg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+          <a href="#"><img src="images/ceg.webp" class="img-responsive" style="width:300px; margin-right: 20px;"></a>
           <div class="card-body">
             <h4 class="card-title">computer glasses</h4>
           </div>
         </div>
-        <div class="card4" style="float: left; border: gray;">
-          <a href="#"><img src="images/clg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-          <div class="card-body">
-            <h4 class="card-title">contact lenses</h4>
-          </div>
-        </div>
-        <div class="card5" style="float: left;">
-          <a href="#"><img src="images/psg3.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
-          <div class="card-body">
-            <h4 class="card-title">Power Sunglasses</h4>
-          </div>
-        </div>
-        <div class="card6" style="float: left;">
+        <div class="card4" style="float: left;">
           <a href="#"><img src="images/readglasses.webp" class="img-responsive"
-              style="width:200px; margin-right: 10px;"></a>
+              style="width:300px; margin-right: 20px;"></a>
           <div class="card-body">
             <h4 class="card-title">Reading Glasses</h4>
           </div>
@@ -161,10 +144,140 @@
         Our Blog
       </h4>
       <a href="#"><img src="images/Our Blog.webp" class="img-responsive"
-          style="height: 400px; margin-bottom: 2%; width: 700px;"></a>
+          style="margin-bottom: 2%; width: 700px;"></a>
     </center>
-  
 
+    <!-- --------------------------------------Category--------------------------------------------- -->
+    <center>
+      <h4>Our Brands</h4>
+      <a href=""><img src="./img/VC-Banner.webp" class="img-responsive"></a>
+    </center>
+    <div id="section1">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 box">
+                  <div>
+                      <div id="carousalContent">
+                          <h3>EyeGlasses</h3>
+                          <a href="product.html" class="viewRange">View Range</a>
+                      </div>
+                      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <center>
+                              <img src="./img/eyeglasses1.jpg">
+                              <img src="./img/eyeglass4.jpg">
+                              <img src="./img/eyeglass3.jpg">
+                            </center>
+                          </div>
+                          <div class="carousel-item">
+                            <center>
+                              <img src="./img/eyeglass5.jpg">
+                              <img src="./img/eyeglass2.jpg">
+                              <img src="./img/eyeglass6.jpg">
+                            </center>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:blue"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:blue"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                  </div>
+                         
+              </div>
+          </div>
+    </div>
+    <div id="section1">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 box">
+                  <div>
+                      <div id="carousalContent">
+                          <h3>Sunglasses</h3>
+                          <a href="product.html" class="viewRange">View Range</a>
+                      </div>
+                      <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <center>
+                              <img src="./img/sung1.jpg">
+                              <img src="./img/sung2.jpg">
+                              <img src="./img/sung6.jpg">
+                            </center>
+                          </div>
+                          <div class="carousel-item">
+                            <center>
+                              <img src="./img/sung4.jpg">
+                              <img src="./img/sung5.jpg">
+                              <img src="./img/sung3.jpg">
+                            </center>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:blue"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:blue"></span>
+                          <span class="visually-hidden">Next</span>
+                      </div>
+                  </div>
+                         
+              </div>
+          </div>
+    </div>
+    <center>
+      <a href=""><img src="./img/JJ-Banner.webp" class="img-responsive" style="width:100%;height:300px;"></a>
+    </center>
+    <div id="section1">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 box">
+                  <div>
+                      <div id="carousalContent">
+                          <h3>Computer Glasses</h3>
+                          <a href="product.html" class="viewRange">View Range</a>
+                      </div>
+                      <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <center>
+                              <img src="./img/sungjj.jpg">
+                              <img src="./img/sungjj2.jpg">
+                              <img src="./img/sungjj6.jpg">
+                            </center>
+                          </div>
+                          <div class="carousel-item">
+                            <center>
+                              <img src="./img/sungjj4.jpg">
+                              <img src="./img/sungjj5.jpg">
+                              <img src="./img/sungjj3.jpg">
+                            </center>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:blue"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:blue"></span>
+                          <span class="visually-hidden">Next</span>
+                      </div>
+                  </div>
+                         
+              </div>
+          </div>
+    </div>
+   
+
+
+
+   
     <!--------------------------------------------About---------------------------------------------->
     <h1>Buy The Best Eyewear From Lenskart</h1>
     <p>Lenskart is the leading e-commerce portal for eyewear in India. It has revolutionised the eyewear industry in the
@@ -185,12 +298,12 @@
   <h3>Follow Us</h3>
   <div class="social-icons">
     <a href="#"><i class="bi bi-facebook"></i></a>
-    <!-- <a href="https://www.facebook.com/Lenskartindia" target="blank" style="text-decoration: none;"><i
+    <a href="https://www.facebook.com/Lenskartindia" target="blank" style="text-decoration: none;"><i
       class="bi bi-facebook" alt="facebook" title="facebook" style="color: black; text-align: center;"></i></a>
   <a href="https://twitter.com/Lenskart_com" target="blank" style="text-decoration: none;"><i class="bi bi-twitter"
       alt="twitter" title="twitter" style=" color: black; text-align: center;"></i></a>
   <a href="https://www.instagram.com/lenskart/" target="blank" style="text-decoration: none;"><i
-      class="bi bi-instagram" alt="insta" title="instagram" style="color: black; text-align: center;"></i></a> -->
+      class="bi bi-instagram" alt="insta" title="instagram" style="color: black; text-align: center;"></i></a>
   </div>
 
   <h3>Download Lenskart App to but Eyeglasses , Sunglasses and Contact Lenses </h3>
